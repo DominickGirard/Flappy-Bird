@@ -42,6 +42,7 @@ public class BirdScript : MonoBehaviour
 
             // Check if Arrow prefab is assigned
             // go
+            //dw
             if (Arrow != null)
             {
                 GameObject newArrow = Instantiate(Arrow, transform.position, Quaternion.Euler(0, 0, angleDeg), transform.parent);
