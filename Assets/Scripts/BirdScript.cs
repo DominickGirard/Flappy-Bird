@@ -41,6 +41,7 @@ public class BirdScript : MonoBehaviour
             float angleDeg = angleRad * Mathf.Rad2Deg;
 
             // Check if Arrow prefab is assigned
+            // go
             if (Arrow != null)
             {
                 GameObject newArrow = Instantiate(Arrow, transform.position, Quaternion.Euler(0, 0, angleDeg), transform.parent);
